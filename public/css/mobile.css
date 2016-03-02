@@ -1,0 +1,40 @@
+nav {
+  background-color:black;
+  padding: 0px;
+}
+
+nav ul {
+	margin-bottom: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+  background-color: #f7505a;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color:black;
+  color:white;
+  clear:both;
+  padding:5px; 
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #fff;
+}

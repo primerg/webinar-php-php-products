@@ -1,0 +1,226 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+body {
+    color: #999;
+    font-family: "Helvetica",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0; padding: 0;
+}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+header {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px;
+}
+
+.header-content {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+  
+}
+.logo img {
+    width: 200px;
+}
+
+.user-menu {
+    float: right;
+}
+
+.user-menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   NAV
+   ========================================================================== */
+
+nav {
+    background-color:black;
+    padding: 0px;
+}
+
+nav ul {
+    padding: 0; margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background: gray;
+}
+
+nav ul li:first-child {
+    padding-left: 0;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   CONTENT
+   ========================================================================== */
+
+section {
+    padding:10px; 
+}
+
+section .left {
+    float: left;
+    width: 60%;
+}
+
+section .right {
+    float: right;
+    width: 30%;
+}
+
+section .right img {
+    width: 100%;
+}
+
+section .clear {
+    clear: both;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    padding:5px; 
+    overflow: hidden;
+
+    text-transform: uppercase;
+}
+
+footer .col {
+    float: left;
+    width: 25%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    margin: 0; padding: 0;
+}
+footer ul li {
+    list-style: none;
+}
+
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0;
+    }
+
+    footer .col {
+        width: 50%;
+    }
+    .logo {
+        margin-top: 20px;
+        float: none; text-align: center;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .user-menu {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }   
+
+    .user-menu ul {
+        margin: 10px 0; padding: 0;
+        text-align: center;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 10px;
+    }
+
+    .mobile-menu span {
+        float: right;
+        width: 20px;
+        height: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav:hover .mobile-menu span {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px;
+    }
+
+    nav ul li:first-child {
+        padding: 10px;
+    }
+}
+
+.mean-container a.meanmenu-reveal span {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    margin-top: 3px;
+}
+    
